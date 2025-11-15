@@ -13,7 +13,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
       colors: {
+        'ocean-deep': 'hsl(var(--ocean-deep))',
+        'sunlit-gold': 'hsl(var(--sunlit-gold))',
+        'soft-aqua': 'hsl(var(--soft-aqua))',
+        'fresh-ivory': 'hsl(var(--fresh-ivory))',
+        'night-pine': 'hsl(var(--night-pine))',
+        'ink-charcoal': 'hsl(var(--ink-charcoal))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
